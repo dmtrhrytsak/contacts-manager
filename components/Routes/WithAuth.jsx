@@ -12,7 +12,7 @@ const WithAuth = ({ protectedRoutes, children }) => {
 
   useEffect(() => {
     if (isProtectedPath && isInitialized && !isAuthenticated) {
-      router.push('/login');
+      router.replace('/login');
     }
   }, [router, isInitialized, isAuthenticated, isProtectedPath]);
 
