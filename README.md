@@ -4,7 +4,7 @@
 <div align="center">
   <br>
   <p align="center">
-    <a href="/">View Demo</a>
+    <a href="https://contacts-manager-omega.vercel.app/">View Demo</a>
   </p>
 </div>
 
@@ -17,4 +17,3 @@ Project is created with:
 * React
 * Firebase
 * Chakra UI
-	
